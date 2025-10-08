@@ -1,0 +1,11 @@
+taiton-website/
+│ index.html
+│ products.html
+│ about.html
+│ contact.html
+├─ assets/
+│   logo.png
+│   banner.jpg
+│   product-sample.jpg
+└─ styles/
+    main.css
