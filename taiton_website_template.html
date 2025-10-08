@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tai Ton Trading 大通贸易公司</title>
+  <link rel="stylesheet" href="styles/main.css" />
+  <style>
+    body { font-family: 'Roboto', 'Noto Sans SC', sans-serif; margin: 0; background: #F5F6F8; color: #333; }
+    header { background: #004E8A; color: white; padding: 1rem 2rem; display: flex; align-items: center; justify-content: space-between; }
+    nav a { color: white; margin: 0 1rem; text-decoration: none; font-weight: 500; }
+    .hero { text-align: center; padding: 4rem 1rem; background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('assets/banner.jpg') center/cover; color: white; }
+    .hero h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+    .hero p { font-size: 1.2rem; }
+    .products { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; padding: 2rem; }
+    .product-card { background: white; border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); overflow: hidden; transition: transform 0.2s; }
+    .product-card:hover { transform: translateY(-5px); }
+    .product-card img { width: 100%; height: 180px; object-fit: cover; }
+    .product-card h3 { margin: 1rem; color: #004E8A; }
+    .product-card p { margin: 0 1rem 1rem; font-size: 0.95rem; }
+    footer { background: #004E8A; color: white; text-align: center; padding: 1rem; margin-top: 2rem; }
+    .lang-switch { cursor: pointer; background: #0077C0; padding: 0.3rem 0.7rem; border-radius: 4px; font-size: 0.9rem; }
+    h2.section-title { text-align: center; margin: 2rem 0 1rem; color: #004E8A; }
+    .about, .contact { padding: 2rem; max-width: 1000px; margin: auto; background: white; border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); margin-bottom: 2rem; }
+    .map-container { width: 100%; height: 400px; margin-top: 1rem; border-radius: 10px; overflow: hidden; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">Tai Ton Trading 大通贸易公司</div>
+    <nav>
+      <a href="index.html">Home / 首页</a>
+      <a href="products.html">Products / 产品</a>
+      <a href="about.html">About / 关于我们</a>
+      <a href="contact.html">Contact / 联系我们</a>
+      <span class="lang-switch">EN / 中文</span>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Your Reliable Packaging Supplier in Canada</h1>
+    <p>加拿大可靠的食品包装供应商</p>
+  </section>
+
+  <section class="products">
+    <div class="product-card">
+      <img src="assets/product-sample.jpg" alt="Napkins & Tissue">
+      <h3>Napkins & Tissue / 纸巾类</h3>
+      <p>Soft and absorbent napkins and tissue products for all food services.<br>柔软吸水的纸巾产品，适用于各种餐饮场所。</p>
+    </div>
+    <div class="product-card">
+      <img src="assets/product-sample.jpg" alt="Take-out Boxes">
+      <h3>Take-out Boxes / 外卖盒</h3>
+      <p>Durable and eco-friendly containers designed for restaurants and takeout businesses.<br>坚固环保的外卖包装盒。</p>
+    </div>
+    <div class="product-card">
+      <img src="assets/product-sample.jpg" alt="Cutlery & Chopsticks">
+      <h3>Cutlery & Chopsticks / 餐具类</h3>
+      <p>Disposable utensils and chopsticks for convenience.<br>一次性餐具和筷子，方便实用。</p>
+    </div>
+    <div class="product-card">
+      <img src="assets/product-sample.jpg" alt="Foil & Paper Containers">
+      <h3>Foil & Paper Containers / 锡纸纸容器</h3>
+      <p>Reliable aluminum and paper packaging for baked or hot foods.<br>可靠的铝制与纸制容器，适用于热食或烘焙食品。</p>
+    </div>
+  </section>
+
+  <h2 class="section-title">About / 关于我们</h2>
+  <section class="about">
+    <p>Tai Ton Trading Inc. is a trusted supplier of packaging products based in Mississauga, Canada.<br>
+泰通贸易公司是一家位于加拿大密西沙加的包装产品供应商。</p>
+    <p>We focus on quality, reliability, and customer satisfaction.<br>
+我们专注于高品质、可靠的服务，并以客户满意为核心目标。</p>
+  </section>
+
+  <h2 class="section-title">Contact / 联系我们</h2>
+  <section class="contact">
+    <p>Tai Ton Trading Inc.<br>
+    3441 McNicoll Ave, Scarborough, ON M1V 2V3<br>
+    电话 / Phone: 416-293-8188<br>
+    邮箱 / Email: info@taiton.ca</p>
+
+    <div class="map-container">
+      <iframe src="https://www.google.com/maps/embed/v1/place?key=YOUR_GOOGLE_MAPS_API_KEY&q=3441+McNicoll+Ave,Scarborough,ON" width="100%" height="100%" style="border:0;" allowfullscreen loading="lazy"></iframe>
+    </div>
+
+    <p>Leave us a message / 给我们留言:</p>
+    <iframe src="https://docs.google.com/forms/d/e/YOUR_GOOGLE_FORM_ID/viewform?embedded=true" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+  </section>
+
+  <footer>
+    Tai Ton Trading Inc. | 3441 McNicoll Ave, Scarborough, ON M1V 2V3 | ☎ 416-293-8188
+  </footer>
+
+</body>
+</html>
